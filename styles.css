@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'ConsolasLFBold';
+    src: url('Consolas Bold.otf') format('opentype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+body {
+    font: 12px 'ConsolasLFBold', monospace;
+    background: #000 url(images/bg.jpg) center/cover fixed;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color: #ffae00;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
