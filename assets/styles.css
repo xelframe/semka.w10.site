@@ -21,9 +21,3 @@ a {
 a:hover, a:active {
     text-decoration: underline;
 }
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
